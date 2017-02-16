@@ -1,4 +1,4 @@
-# frauddetection
+# Fraud detection
 
 Predictive model using Gradient Boosting classifier to detect fraud. 
 
