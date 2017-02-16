@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<header>
+  <div class="container">
+    <div class="slider-container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Organisation: {{ org_name }}</div>
+        <span class="intro-lead-in">Country: {{ country }} <br></span>
+<span class="intro-lead-in"> <br></span>
+        <div class="intro-heading">{{ name }}</div>
+        <a href="#about" class="page-scroll btn btn-xl">  TRANSACTION {{ status }}</a>
+      </div>
+    </div>
+  </div>
+</header>
+</html>
